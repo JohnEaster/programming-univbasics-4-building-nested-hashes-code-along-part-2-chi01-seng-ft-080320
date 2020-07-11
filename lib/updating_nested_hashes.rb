@@ -18,12 +18,12 @@ def update_status
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
       }
-      :addiitonal_characters = []
    }
 
 epic_tragedy[:montague][:hero][:status] = "dead"
 epic_tragedy[:capulet][:heroine][:status] = "dead"
 
+epic_tragedy[:addiitonal_characters] = []
 epic_tragedy[:addiitonal_characters] << {name: "Prince Escalus"}
 epic_tragedy[:addiitonal_characters] << {name: "Apothecary"}
 
